@@ -1,0 +1,77 @@
+.projects {
+  margin-bottom: 16rem;
+  scroll-margin-top: 15rem;
+}
+.projects .projects__content {
+  max-width: 56rem;
+  margin: 0 auto 6rem;
+}
+.projects ul li {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+.projects ul li .image,
+.projects ul li .project__info {
+  flex: 1;
+  min-width: 0;
+}
+.projects ul li:not(:last-of-type) {
+  margin-bottom: 10rem;
+}
+
+.image video {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  border-radius: 0.5rem;
+  filter: drop-shadow(5px 5px 20px #8946ff);
+}
+
+/* .projects ul li,
+.project__info {
+  max-width: 47rem;
+} */
+.projects ul li .project__info p {
+  margin: 1rem 0 4rem;
+
+}
+.projects ul li .project__info a {
+  font-weight: 500;
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+@media screen and (max-width: 768px) {
+  .projects {
+    margin-bottom: 8rem;
+  }
+
+  .projects .projects__content {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .projects ul li,
+  .projects ul li.projects__reresed-list {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 2.5rem;
+  }
+
+  .projects ul li:not(:last-of-type) {
+    margin-bottom: 6rem;
+  }
+
+  .projects ul li .project__info {
+    max-width: 100%;
+  }
+
+  .projects ul li .image video {
+    width: 100%;
+  }
+}
+
+.projects ul li .project__info h3 {
+  overflow-wrap: anywhere;
+}
