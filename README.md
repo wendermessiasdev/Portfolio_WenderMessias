@@ -30,7 +30,7 @@ Depois, acesse [http://localhost:8000](http://localhost:8000) no navegador. Tamb
 ## Estrutura
 
 - `index.html` — conteúdo e estrutura da página.
-- `css/` — estilos globais e estilos de cada seção.
+- `css/styles.css` — variáveis, estilos globais, seções e ajustes responsivos.
 - `script/` — comportamento do menu de navegação.
 - `assets/` — fotos, ícones, imagens e vídeos dos projetos.
 - `img/` — logotipos e favicon.
